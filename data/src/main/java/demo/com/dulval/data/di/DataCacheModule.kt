@@ -4,7 +4,7 @@ import demo.com.dulval.data.local.database.JobsDataBase
 import demo.com.dulval.data.local.source.JobsCacheDataSource
 import demo.com.dulval.data.local.source.JobsCacheSourceImpl
 import org.koin.android.ext.koin.androidContext
-import org.koin.dsl.module.module
+import org.koin.dsl.module
 
 val cacheDataModule = module {
     single { JobsDataBase.createDataBase(androidContext()) }

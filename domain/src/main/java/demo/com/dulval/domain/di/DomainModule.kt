@@ -2,8 +2,7 @@ package demo.com.dulval.domain.di
 
 import demo.com.dulval.domain.usecases.GetJobsUseCases
 import io.reactivex.schedulers.Schedulers
-import org.koin.dsl.module.module
-
+import org.koin.dsl.module
 
 val useCaseModule = module {
 
